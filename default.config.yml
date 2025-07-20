@@ -22,60 +22,58 @@ sudoers_custom_config: ""
 #   # Allow users in admin group to use sudo with no password.
 #   %admin ALL=(ALL) NOPASSWD: ALL
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+dotfiles_repo: https://github.com/arthurvrt/dotfiles.git
 dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
-dotfiles_repo_version: master # Replace with your default branch
+dotfiles_repo_version: main # Replace with your default branch
 dotfiles_files:
   - .zshrc
   - .gitignore
-  - .inputrc
   - .osx
-  - .vimrc
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
-  - autoconf
-  - bash-completion
-  - doxygen
-  - gettext
-  - gifsicle
-  - git
+  - ffmpeg
   - gh
-  - go
-  - gpg
-  - httpie
-  - iperf
-  - libevent
-  - sqlite
   - nmap
   - node
-  - nvm
-  - php
-  - pngpaste
-  - ssh-copy-id
-  - readline
-  - openssl
-  - pv
-  - wget
-  - wrk
-  - zsh-history-substring-search
+  - fnm
+  - ollama
+  - pnpm
+  - pyenv
+  - yt-dlp
 
 homebrew_taps: []
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - chromedriver
-  - docker
-  - dropbox
+  - 1password
+  - 1password-cli
+  - appcleaner
+  - beekeeper-studio
+  - brave-browser
+  - burp-suite
+  - discord
+  - figma
   - firefox
+  - firefox-developer-edition
   - google-chrome
+  - google-cloud-sdk
+  - gcloud-cli
   - handbrake
-  - licecap
-  - sequel-ace
-  - slack
-  - sublime-text
-  - transmit
+  - monitorcontrol
+  - notion
+  - notion-calendar
+  - protonvpn
+  - raycast
+  - scroll-reverser
+  - signal
+  - termius
+  - utm
+  - visual-studio-code
+  - warp
+  - whatsapp
+  - zen
 
 # See `geerlingguy.mac.mas` role documentation for usage instructions.
 mas_installed_apps: []
